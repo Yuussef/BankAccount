@@ -8,15 +8,17 @@ public class Transaction {
     private final double amount;
     private final double balance;
 
-        public Transaction(String operation,LocalDate date, double amount, double balance) {
-            this.operation=operation;
-            this.date = date;
+    public Transaction(String operation, LocalDate date, double amount, double balance) {
+        this.operation = operation;
+        this.date = date;
         this.amount = amount;
         this.balance = balance;
     }
+
     public String getOperation() {
         return operation;
     }
+
     public LocalDate getDate() {
         return date;
     }
